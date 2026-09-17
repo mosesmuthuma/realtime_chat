@@ -130,7 +130,7 @@ server.listen(PORT, () => {
 });
 
 // 2. Connect to MongoDB in the background and seed defaults if empty
-mongoose.connect('mongodb://127.0.0.1:27017/realtime_chat', {
+mongoose.connect(process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/realtime_chat', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }).then(async () => {
