@@ -1,3 +1,6 @@
+##  Live Demo
+You can test the live application here: [https://realtime-chat-ap60.onrender.com](https://realtime-chat-ap60.onrender.com)
+
 # Real-Time Chat Application
 
 A full-stack, feature-rich real-time chat application built with Node.js, Express, Socket.io, and MongoDB.
@@ -14,5 +17,4 @@ A full-stack, feature-rich real-time chat application built with Node.js, Expres
 2. Install dependencies:
    ```bash
    npm install
-   ## Live Demo
-You can test the live application here: [https://realtime-chat-ap60.onrender.com](https://realtime-chat-ap60.onrender.com)
+   
